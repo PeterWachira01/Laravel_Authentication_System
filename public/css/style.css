@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+.home-text {
+    color:green;
+}
+
+form {
+    background: #e9ffde;
+    border-radius: 20px;
+    padding: auto;
+}
+
+.form-title {
+    color:rgb(56, 56, 199);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    color: #4c544a;
+}
