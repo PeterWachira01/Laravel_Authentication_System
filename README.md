@@ -6,7 +6,7 @@ This Laravel project provides a robust authentication system to secure your web 
 
 - User Registration: Allow users to sign up with a unique email address and password.
 - User Login: Provide a secure login mechanism for registered users.
-- Password Reset: Enable users to reset their passwords in case they forget them.
+- Email Verification: Enable users to verify their email addresses after they register.
 - Middleware Protection: Utilize Laravel middleware to protect routes and ensure authenticated access.
 - User Profile Management: Allow users to update their profile information.
 
@@ -22,7 +22,7 @@ This Laravel project provides a robust authentication system to secure your web 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/PeterWachira01/laravel-authentication.git
+    git clone https://github.com/PeterWachira01/laravel_Authentication_System.git
     ```
 
 2. Navigate to the project directory:
@@ -35,6 +35,7 @@ This Laravel project provides a robust authentication system to secure your web 
 
     ```bash
     composer install
+    laravel
     ```
 
 4. Copy the `.env.example` file to `.env`:
@@ -69,14 +70,16 @@ This Laravel project provides a robust authentication system to secure your web 
 
 1. Register a new account.
 
-2. Log in with your registered credentials.
+2. Verify your email address.
 
-3. Explore the authenticated features of the application.
+3. Log in with your registered credentials.
+
+4. Explore the authenticated features of the application.
 
 ## Security
 
 - This authentication system follows best practices for securing user data.
-- Laravel's built-in features, such as hashed passwords, CSRF protection, and middleware, are employed to enhance security.
+- Laravel's built-in features, such as hashed passwords, email verification, CSRF protection, and middleware, are employed to enhance security.
 
 ## Contributing
 
