@@ -85,8 +85,4 @@ This Laravel project provides a robust authentication system to secure your web 
 
 If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
-## License
-
-This Laravel Authentication System is open-source software licensed under the [MIT license](LICENSE).
-
 ---
